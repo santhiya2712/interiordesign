@@ -24,8 +24,7 @@ color: #FFFFFF;
     flex-direction: column;
       margin: auto;
       align-items: center;
-      border: 1px solid yellow;
-  }
+    }
   .frame1{
     margin: 2px;
     width: 460px;
