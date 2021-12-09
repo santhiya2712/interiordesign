@@ -1,0 +1,13 @@
+.primarybtn {
+    font-size: 16px;
+    margin: 0 20px;
+    background: #1A3D34;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border: none;
+    color: #DDDDDD;
+    align-items: center;
+    padding: 6px 24px;    
+  }
+ 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './button';
 import styles from "./styles/interior.module.css";
 
 const Sectionone = () =>{
@@ -14,7 +15,7 @@ const Sectionone = () =>{
 					<li>Products</li>
 					<li>Work</li>
 				</ul>
-				<button type="submit" className={styles.btn1}>GET QUOTE</button>
+				<Button label="GET QUOTE"/>
 			</div>
 
 		</div>
@@ -22,6 +23,8 @@ const Sectionone = () =>{
 			<div className={styles.title}>
 			<p>Interior Design & Decors</p>
 			</div>
+			{/* <Button label="Book Free Consultaian"
+			 /> */}
 			<button type="submit" className={styles.btn2}>Book Free Consultaian<span><img src="Arrow - Right.png" alt=" "></img></span></button>
 				</div>
 	</div>
