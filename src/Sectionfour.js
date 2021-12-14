@@ -1,7 +1,5 @@
-import React, { useLayoutEffect } from 'react';
-import Sectiontwo from './Sectiontwo';
+import React from 'react';
 import styles from "./styles/interiorsectionfour.module.css"
-
 const Sectionfour = () => {
     return(
       <div  className={styles.Sectionfour}>
@@ -14,13 +12,12 @@ const Sectionfour = () => {
               <img src="profile.png" alt=" "/>
               <p className={styles.text1}>Shirley Lin</p>
               <p>Bangalore</p>
-
             </div>
-
-          </div>
-          
+          </div> 
+          {/* <div>
+            <p>Excellent Chocie</p>
+            </div>       */}
         </div>
-
       </div>
     );
   };
