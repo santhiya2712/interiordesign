@@ -8,10 +8,9 @@
     width: 100%;
     background-color: #1A3D34;
     height: 600px;
-
   }
   .h3text{
-    padding: 35px;
+   padding: 40px;
 font-family: Playfair Display;
 font-style: normal;
 font-weight: bold;
@@ -20,30 +19,29 @@ line-height: 64px;
 text-align: center;
 color: #FFFFFF;
   }
-  .frameblock{
+  .frame{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
+      
   }
-
   .frame1{
-    margin: 20px;
+    margin: 22px;
     width: 460px;
+    
     background: rgba(0,0,0,.4);
   }
   .blockimg{
-    padding: 20px
-  }
-  .blocktext{
-    
-    margin: 2px;
+    padding: 20px;
   }
 .text {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.05em;
   color: #FFFFFF;
+}
+.frame{
+  display: flex;
 }
 .texts{
   font-size: 13px;

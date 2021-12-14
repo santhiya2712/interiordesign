@@ -7,7 +7,7 @@
     width: 100%;
   }
   .h3text{
-    padding: 20px;
+    padding: 40px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -18,84 +18,79 @@
 }
 .btn2{
   margin-top: 20px;
+  border: none;
   padding: 9px 24px;
-      background: #1A3D34;
-      letter-spacing: 0.05em;
-    color: #DDDDDD;
-
-font-size: 16px;
-
+  background: #1A3D34;
+  letter-spacing: 0.05em;
+color: hsl(0, 0%, 87%);
 }
 .btn2 img{
-  margin-left: 14px;
+  width: 15px;
 }
 .text1{
-  padding: 4px;
-  font-family:Playfair Display ;
   font-size: 48px;
-  color:#1A3D34;
+  line-height: 64px;
   font-weight: bold;
-
+  font-family: Playfair Display;
+  font-style: normal;
+  color:#1A3D34;
 }
 .text2{
-  padding: 4px;
-  width: 460px;
+  padding: 10px;
   font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 24px;
   font-weight: normal;
-  letter-spacing: 00.05em;
-  color:  #1A3D34;
+  color: #1A3D34 ;
+
 }
-.frames{
-  padding: 53px;
+.border{
+  width: 600px;
+height: 400px;
+background: #1A3D34;
+}
+.border img{
+  margin-top: -23px;
+  margin-left: 30px;
+}
+.border1{
+  width: 600px;
+  height: 400px;
+  background: #1A3D34;
+
+}
+.border1 img{
+  margin-top: -29px;
+  margin-left: -31px;
+  margin-right: 28px;
+
+}
+
+.frameblock{
+  padding: 45px;
   display: flex;
-  justify-content: space-evenly;
+  
 }
 .frametext{
-  margin-top: 50px;
+  margin-top: 25px;
+  padding: 20px;
 }
-.frameimg1{
-  padding:10px;
-  width: 600px;
-  height: 400px;
-  background-color:  #1A3D34;;
-}
-.frameimg2{
-  padding:10px;
-  width: 600px;
-  height: 400px;
-  background-color:  #1A3D34;;
-}
-.frameimg2 img{
-  margin-top: -37px;
-  margin-left: 26px;
-}
-.frameimg1 img{
-  margin-top: -37px;
-  margin-left: 26px;
-}
-/* //image// */
+/* {//image// */
 .imageblock{
   margin: auto;
-  width: 85%;
-  padding-bottom: 77px;}
-
+  width: 80%;
+  padding-bottom: 40px;
+}
 .row{
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
   padding: 0 4px;
 }
-.column
-{
-flex: 25%;
-max-width: 25%;
-padding: 0 4px;
+.column{
+  flex: 25%;
+  max-width: 40%;
+  padding: 4px 4px;
 }
-.column img {
-margin-top: 8px;
-vertical-align: middle;
-width: 100%;
-}
+
+
 
 
