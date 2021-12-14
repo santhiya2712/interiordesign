@@ -42,15 +42,15 @@ const Sectionthree = () => {
         <div className={styles.row}>
           <div className={styles.column}>
             <img src="image1.png" alt=" "/>
+            <img src="image4.png" alt=" "/>
+          </div>
+          <div className={styles.column}>
             <img src="image2.png" alt=" "/>
+            <img src="image5.png" alt=" "/>
+            <img src="image6.png" alt=" "/>
           </div>
           <div className={styles.column}>
             <img src="image3.png" alt=" "/>
-            <img src="image4.png" alt=" "/>
-            <img src="image5.png" alt=" "/>
-          </div>
-          <div className={styles.column}>
-            <img src="image6.png" alt=" "/>
             <img src="image7.png" alt=" "/>
           </div>
         </div>
